@@ -8,3 +8,8 @@ Contributions are welcome, but please follow instructions under each subfolder:
 - [release](https://github.com/ZoneMinder/zmdockerfiles/tree/master/release) - These run the latest ZoneMinder release.
 
 NOTE: Usage instructions for the development and release Dockerfiles are contained within the file itself, at the bottom.
+
+```
+# from project root:
+docker build -f release/ubuntu18.04/Dockerfile zoneminder .
+```
