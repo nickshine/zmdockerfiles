@@ -11,5 +11,5 @@ NOTE: Usage instructions for the development and release Dockerfiles are contain
 
 ```
 # from project root:
-docker build -f release/ubuntu18.04/Dockerfile zoneminder .
+docker build -f release/ubuntu18.04/Dockerfile -t zoneminder .
 ```
